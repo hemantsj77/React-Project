@@ -26,8 +26,9 @@ const login = () => {
   return (
     <div className="container">
       <div className="child-div">
-        <form method='get'>
-          <label htmlFor="username">username</label>
+        <h2>Login</h2>
+          <form method='get'>
+            <label htmlFor="username">username</label>
           <input id="username" type="text" name='username' placeholder='username' value={data.username} onChange={dataHandler} />
           <label htmlFor="password">password</label>
           <input id='pwd' type="password" name='pwd' placeholder='password' value={data.pwd} onChange={dataHandler} />
